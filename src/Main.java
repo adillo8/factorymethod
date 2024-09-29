@@ -7,7 +7,7 @@ public class Main {
         Ordenador ordenador = OrdenadorFactory.crearOrdenador(tipo);
 
         // Imprimir las especificaciones del ordenador
-        System.out.println("Especificaciones del Ordenador Tipo " + tipo + ":");
+        System.out.println("Especificaciones del Ordenador Tipo " + tipo + "que has creado :");
         System.out.println(ordenador.getEspecificaciones());
     }
 }
